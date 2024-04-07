@@ -1,0 +1,25 @@
+@media screen and (min-width: 500px){
+    .burger{
+        display: none;
+    }
+    header nav{
+        display: block;
+    }
+    .homePage h1{
+        font-size: 105px;
+        margin: 30px 0px 0px 0px;
+    }
+    h2{
+        font-size: 30px;
+    }
+
+    .homePage button{
+        width: 400px;
+        height: 70px;
+        font-size: 30px;
+    }
+
+    .homePage p{
+        margin: 10px 0px 5px px;
+    }
+}
