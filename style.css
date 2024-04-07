@@ -45,7 +45,8 @@ header nav ul li {
 
 header a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: white;
+  font-weight: 600;
   font-family: poppins;
 }
 
@@ -77,9 +78,14 @@ header a:hover {
 }
 
 .open {
-  padding: 30px 20px 10px 10px;
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   display: none;
-  background-color: #046cad;
+  background-color: rgba(4, 108, 173, 0.9137254902);
   border-radius: 7px;
   position: absolute;
   top: 45px;
@@ -87,13 +93,16 @@ header a:hover {
   box-shadow: 1px 1px 10px white;
 }
 
-.open li {
+.open div {
   list-style: none;
-  margin: 0px 0px 0px 15px;
+  padding: 10px 25px 10px 25px;
 }
 
-.open ul li a {
-  margin: 5px;
+.page2 {
+  border-top: 0.5px solid rgba(255, 255, 255, 0.322);
+}
+
+.open div a {
   color: white;
 }
 
