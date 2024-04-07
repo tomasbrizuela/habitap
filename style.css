@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  background-color: #046cad;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+header .containerLogo {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 15px;
+}
+
+header p {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-family: poppins;
+  color: white;
+  line-height: 60px;
+  font-weight: 800;
+}
+
+header nav {
+  margin: 0px 15px 0px 0px;
+  display: none;
+}
+
+header nav ul li {
+  list-style: none;
+  color: white;
+  display: inline-block;
+  margin: 0px 0px 0px 15px;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: poppins;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.burger {
+  margin: 0px 15px 0px 0px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.burger i {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.burger:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+.burger:active {
+  transform: scale(0.9);
+  transition: 0.5s ease;
+}
+
+.open {
+  padding: 30px 20px 10px 10px;
+  display: none;
+  background-color: #046cad;
+  border-radius: 7px;
+  position: absolute;
+  top: 45px;
+  right: 12px;
+  box-shadow: 1px 1px 10px white;
+}
+
+.open li {
+  list-style: none;
+  margin: 0px 0px 0px 15px;
+}
+
+.open ul li a {
+  margin: 5px;
+  color: white;
+}
+
+.homePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homePage h1 {
+  margin: 70px 0px 20px 0px;
+  font-family: poppins;
+  font-size: 60px;
+  color: #046cad;
+  font-style: italic;
+}
+
+h2 {
+  margin: 20px 0px 10px 0px;
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 550;
+  color: #046cad;
+  text-align: center;
+}
+
+.homePage button {
+  margin: 20px 0px 20px 0px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+  background-color: #046cad;
+  border: 1px solid white;
+  box-shadow: 1px 1px 10px grey;
+  color: white;
+  font-family: poppins;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+p {
+  padding: 10px 30px 10px 30px;
+  font-family: poppins;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 400;
+  color: #03273e;
+  text-align: center;
+}
+
+.homePage button:hover {
+  background-color: #03273e;
+  transition: 0.7s ease;
+}
+
+.homePage button:active {
+  background-color: #86b5d2;
+  transition: 0.7s ease;
+}
+
+/*# sourceMappingURL=style.css.map */

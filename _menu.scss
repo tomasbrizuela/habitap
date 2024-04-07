@@ -1,0 +1,57 @@
+.homePage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homePage h1{
+    margin: 70px 0px 20px 0px;
+    font-family: $font;
+    font-size: 60px;
+    color: #046cad;
+    font-style: italic;
+}
+
+h2{
+    margin: 20px 0px 10px 0px;
+    font-family: $font;
+    font-size: 20px;
+    font-weight: 550;
+    color: #046cad;
+    text-align: center;
+}
+
+.homePage button{
+    margin: 20px 0px 20px 0px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    background-color: #046cad;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px grey;
+    color: white;
+    font-family: $font;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+p{
+    padding: 10px 30px 10px 30px;
+    font-family: $font;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    color: #03273e;
+    text-align: center;
+}
+
+
+.homePage button:hover{
+    background-color: #03273e;
+    transition: 0.7s ease;
+}
+
+.homePage button:active{
+    background-color: #86b5d2;
+    transition: 0.7s ease;
+}

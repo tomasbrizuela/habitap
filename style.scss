@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$font: poppins;
+
+@import "_header.scss";
+@import "_burger.scss";
+@import "_open.scss";
+@import "_menu.scss"
+

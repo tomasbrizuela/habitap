@@ -1,0 +1,20 @@
+.open{
+    padding: 30px 20px 10px 10px;
+    display: none;
+    background-color: #046cad;
+    border-radius: 7px;
+    position: absolute;
+    top: 45px;
+    right: 12px;
+    box-shadow: 1px 1px 10px white;
+}
+
+.open li{
+    list-style: none;
+    margin: 0px 0px 0px 15px;
+}
+
+.open ul li a{
+    margin: 5px;
+    color: white;
+}

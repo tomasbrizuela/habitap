@@ -1,0 +1,49 @@
+header{
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    background-color: #046cad;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+header .containerLogo{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 15px;
+}
+header p{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: $font;
+    color: white;
+    line-height: 60px;
+    font-weight: 800;
+}
+
+header nav{
+    margin: 0px 15px 0px 0px;
+    display: none;
+}
+
+header nav ul li{
+    list-style: none;
+    color: white;
+    display: inline-block;
+    margin: 0px 0px 0px 15px;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: $font;
+
+}
+
+header a:hover{
+    text-decoration: underline;
+}
