@@ -35,8 +35,12 @@ h2{
     cursor: pointer;
 }
 
-p{
-    padding: 10px 30px 10px 30px;
+.home{
+    margin: 50px;
+}
+
+.homePage p{
+    padding: 10px 5px 10px 5px;
     font-family: $font;
     font-style: italic;
     font-size: 12px;

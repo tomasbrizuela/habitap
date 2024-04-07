@@ -134,8 +134,12 @@ h2 {
   cursor: pointer;
 }
 
-p {
-  padding: 10px 30px 10px 30px;
+.home {
+  margin: 50px;
+}
+
+.homePage p {
+  padding: 10px 5px 10px 5px;
   font-family: poppins;
   font-style: italic;
   font-size: 12px;
@@ -152,6 +156,21 @@ p {
 .homePage button:active {
   background-color: #86b5d2;
   transition: 0.7s ease;
+}
+
+.footer {
+  background-color: rgb(1, 7, 49);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerText {
+  line-height: 30px;
+  font-family: poppins;
+  color: white;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=style.css.map */
