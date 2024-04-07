@@ -8,7 +8,7 @@
 .homePage h1{
     margin: 70px 0px 20px 0px;
     font-family: $font;
-    font-size: 60px;
+    font-size: 65px;
     color: #046cad;
     font-style: italic;
 }
@@ -16,13 +16,16 @@
 h2{
     margin: 20px 0px 10px 0px;
     font-family: $font;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 550;
     color: #046cad;
     text-align: center;
 }
 
 .homePage button{
+    width: 60%;
+    height: 70px;
+    font-size: 22px;
     margin: 20px 0px 20px 0px;
     padding: 10px 20px 10px 20px;
     border-radius: 15px;
